@@ -1,0 +1,285 @@
+#header-img {
+  width: 300px;
+  margin-top: 30px;
+}
+.navbarLink {
+  display: flex;
+  padding: 0px 0px 0px 550px;
+}
+.nav-link {
+  list-style-type: none;
+  display: inline-block;
+}
+#nav-bar {
+  display: flex;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+}
+
+nav li {
+  margin: 30px 35px;
+  list-style-type: none;
+}
+#features {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 7px;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  margin-top: 90px;
+}
+
+#email {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 30px;
+  display: block;
+}
+#submit {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  display: block;
+  cursor: pointer;
+}
+
+#prices {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+#privacy {
+  display: flex;
+  float: right;
+}
+
+#last {
+  margin-left: 70%;
+}
+
+.price1 {
+  border: solid 2px;
+  margin: 10px;
+  width: 70%;
+  text-align: center;
+}
+#video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#footer {
+  margin: 30px auto 0px auto;
+  width: 800px;
+  background-color: gray;
+  height: 80px;
+}
+.priv {
+  margin: 10px 30px 0px auto;
+}
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+}
+.submit2 {
+  background-color: yellow;
+  cursor: pointer;
+}
+.submit2:active,
+.submit2:hover {
+  background-color: blue;
+}
+.submit2:link {
+  background-color: orange;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 850px) {
+  #header-img {
+    width: 250px;
+    margin-top: 30px;
+  }
+  nav li {
+    margin: 10px 10px;
+  }
+  .trombone {
+    width: 600px;
+  }
+  #features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+  #video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  #footer {
+    margin: 30px auto 0px auto;
+    width: 600px;
+    background-color: gray;
+    height: 80px;
+  }
+  .priv {
+    margin: 10px 10px 0px auto;
+  }
+  #last {
+    margin-left: 68%;
+  }
+}
+
+@media (max-width: 700px) {
+  #header-img {
+    width: 200px;
+    margin-top: 10px;
+  }
+  .nav-link {
+    list-style-type: none;
+    float: right;
+  }
+  #nav-bar {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+  }
+  nav li {
+    margin: 10px 10px;
+  }
+  .trombone {
+    width: 500px;
+  }
+  #features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  #video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #prices {
+    display: inline-table;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+  #footer {
+    margin: 30px auto 0px auto;
+    width: 500px;
+    background-color: gray;
+    height: 80px;
+  }
+  .priv {
+    margin: 10px 10px 0px auto;
+  }
+  #last {
+    margin-left: 62%;
+  }
+}
+
+@media (max-width: 500px) {
+  nav li {
+    margin: 0px;
+  }
+  .nav-link {
+    list-style-type: none;
+    display: flow-root;
+    margin-top: 26px;
+    margin-right: 45px;
+  }
+  #nav-bar {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    margin: 0px;
+  }
+  #title {
+    margin-top: 130px;
+  }
+  .trombone {
+    width: 300px;
+  }
+  #features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #prices {
+    display: inline-table;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+  #video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #footer {
+    margin: 30px auto 0px auto;
+    width: 250px;
+    background-color: gray;
+    height: 80px;
+  }
+  .priv {
+    margin: 10px 10px 0px auto;
+  }
+  #last {
+    margin-left: 24%;
+  }
+}
+
+@media (max-height: 350px) {
+  #footer {
+    margin: 30px auto 0px auto;
+    width: 100%;
+    background-color: gray;
+    height: 80px;
+  }
+  .priv {
+    margin: 10px 10px 0px auto;
+  }
+  #last {
+    margin-left: 37%;
+  }
+}
